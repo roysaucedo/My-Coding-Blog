@@ -2,24 +2,40 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 36px;
+    color: #2e2e2e;
 }
 
 h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 24px;
+    color: #2e2e2e;
 }
 
 h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
+    color: #2e2e2e;
 }
 
 p {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 12px;
+    color: #2e2e2e;
+}
+
+a {
+    color: tomato;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
 }
 
 .contain {
