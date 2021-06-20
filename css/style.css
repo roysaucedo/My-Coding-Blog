@@ -111,7 +111,7 @@ a {
     
 }
 
-footer {
+.footer {
     width: auto;
     height: 25vh;
 }
@@ -120,7 +120,7 @@ footer {
     margin-bottom: 20px;
 }
 
-footer > a {
+.footer > a {
     margin-top: 20px;
 }
 
