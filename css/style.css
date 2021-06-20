@@ -50,6 +50,7 @@ a {
 
 .contain {
     width: auto;
+    height: 100vh;
     margin: 30px 100px 100px 100px;
 }
 
