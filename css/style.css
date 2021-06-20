@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
 h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -17,6 +26,7 @@ h3 {
     font-weight: 500;
     font-size: 14px;
     color: #2e2e2e;
+    margin: 10px 0px;
 }
 
 p {
@@ -40,7 +50,7 @@ a {
 
 .contain {
     width: auto;
-    margin: auto 50px;
+    margin: 30px 100px 100px 100px;
 }
 
 .header {
@@ -66,7 +76,7 @@ a {
 .columns {
     width: auto;
     display: flex;
-    margin-top: 10px;
+    margin: 20px 0px;
     justify-content: space-between;
 
 }
@@ -83,18 +93,54 @@ a {
 .grid1 {
     width: 33%;
     height: 400px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .grid2 {
     width: 33%;
     height: 400px;
-    margin: auto 5px;
+    margin: auto 10px;
 }
 
 .grid3 {
     width: 33%;
     height: 400px;
-    margin-left: 5px;
+    margin-left: 10px;
     
+}
+
+footer {
+    width: auto;
+    height: 25vh;
+}
+.footer-logo {
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+footer > a {
+    margin-top: 20px;
+}
+
+.footer-links {
+    color: #2e2e2e;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.all-rights {
+    margin-top: 80px;
+}
+
+.blog-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.blog-header-text {
+    margin: 20px 0px;
 }
