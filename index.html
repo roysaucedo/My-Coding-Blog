@@ -1,63 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Roy's Blog Layout</title>
-</head>
-
-<body>    
-<div class="contain">
-    <div class="header">
-        <h1>Welcome to the Sauce Studio 🔥</h1>
-        <h3>All things design & marketing. <a href="https://www.youtube.com/channel/UCSkkIddd50SReiAR1eP38bQ">Click here to subscribe</a></h3> 
+  </head>
+  <body class="bg-slate-50">
+    <!-- ANNOUNCEMENT BAR -->
+    <div class="p-2 text-sm text-center bg-orange-500">
+      <p>New posts every week!</p>
     </div>
-    <div class="hero">
-            <img class="hero-img" src="img/hero.jpg" alt="hero img">
-        <div class="hero-text">
-            <h2>How to create a Shopify store in 1 second</h2>
-            <h3>It's not easy but it's definitely possible...maybe not...but it's worth a shot!</h3>
-            <p>Published by Roy Saucedo<br>20 min read<br><br><a href="blog1.html">Read more</a>
+    <!-- END ANNOUNCEMENT BAR  -->
+
+    <div class="p-4">
+      <!-- HEADER -->
+      <header class="p-4 text-center lg:m-10 lg: flex flex-col">
+        <h1 class="pb-1 text-3xl font-bold lg:text-4xl md:text-2xl">
+          My Coding Journey
+        </h1>
+        <h2 class="text-md pb-2">One place to document my learning.</h2>
+      </header>
+      <!-- END HEADER -->
+      <!-- DOWN ARROW -->
+      <div class="my-8">
+        <img class="m-auto w-10" src="/img/down-arrow.png" alt="" />
+      </div>
+      <!-- END DOWN ARROW -->
+      <!-- TOPICS -->
+      <div class="py-10">
+        <h1 class="text-center text-3xl font-semibold pb-4">Topics</h1>
+        <!-- CATEGORIES -->
+        <div class="flex px-2 justify-center">
+          <a href="">
+            <div class="mx-1 bg-slate-200 w-auto rounded-full px-3 p-2">
+              <p class="text-sm text-center">HTML</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="mx-1 bg-slate-200 w-auto rounded-full px-3 p-2">
+              <p class="text-sm text-center">CSS</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="mx-1 bg-slate-200 w-auto rounded-full px-3 p-2">
+              <p class="text-sm text-center">Javascript</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="mx-1 bg-slate-200 w-auto rounded-full px-3 p-2">
+              <p class="text-sm text-center">Shopify</p>
+            </div>
+          </a>
         </div>
+      </div>
+      <!-- END TOPICS -->
+      <!-- POSTS -->
+      <div class="lg:flex max-w-6xl m-auto">
+          <!-- POST 1 -->
+        <div class="my-10 drop-shadow-md rounded-lg p-3 bg-white md: lg: mx-3 mt-0">
+          <a href="/blog1.html">
+            <img class="rounded-lg pb-4" src="img/hero.jpg" alt="hero img" />
+            <div class="">
+              <p class="pb-2">Date Posted: 01/05/2022</p>
+              <h2 class="pb-2 text-2xl font-bold">Why Did I Start Coding?</h2>
+              <p class="pb-2">Learning to code always seemed like an impossible mission until I actually gave it a shot.</p>
+              <p class="font-medium text-orange-500 text-md">Read more</p>
+            </div>
+          </a>
+        </div>
+                  <!-- POST 1 -->
+                  <div class="my-10 drop-shadow-md rounded-lg p-3 bg-white md: lg: mx-3 mt-0">
+                    <a href="/blog1.html">
+                      <img class="rounded-lg pb-4" src="img/hero.jpg" alt="hero img" />
+                      <div class="">
+                        <p class="pb-2">Date Posted: 01/05/2022</p>
+                        <h2 class="pb-2 text-2xl font-bold">Why Did I Start Coding?</h2>
+                        <p class="pb-2">Learning to code always seemed like an impossible mission until I actually gave it a shot.</p>
+                        <p class="font-medium text-orange-500 text-md">Read more</p>
+                      </div>
+                    </a>
+                  </div>
+                            <!-- POST 1 -->
+        <div class="my-10 drop-shadow-md rounded-lg p-3 bg-white md: lg: mx-3 mt-0">
+            <a href="/blog1.html">
+              <img class="rounded-lg pb-4" src="img/hero.jpg" alt="hero img" />
+              <div class="">
+                <p class="pb-2">Date Posted: 01/05/2022</p>
+                <h2 class="pb-2 text-2xl font-bold">Why Did I Start Coding?</h2>
+                <p class="pb-2">Learning to code always seemed like an impossible mission until I actually gave it a shot.</p>
+                <p class="font-medium text-orange-500 text-md">Read more</p>
+              </div>
+            </a>
+          </div>
+      </div>
     </div>
-    <div class="columns">
-        <div class="grid1">
-            <img class="grid-img" src="img/Frame1.jpg" alt="hero img">
-            <h2 class="grid-text">Learn how to be a doctor</h2>
-            <p class="grid-text">Can I really be docdtor? Is it that easy?</p>
-            <p class="grid-text">Published by Roy Saucedo<br>20 min read<br><br><a href="blog1.html">Read more</a></p>
-            
-        </div>
-
-        <div class="grid2">
-            <img class="grid-img" src="img/Frame2.jpg" alt="hero img">
-            <h2 class="grid-text">Front-End Dev Tips</h2>
-            <p class="grid-text">Can I really be doctor? Is it that easy?</p>
-            <p class="grid-text">Published by Roy Saucedo<br>20 min read<br><br><a href="blog1.html">Read more</a></p>
-    
-
-        </div>
-
-        <div class="grid3">
-            <img class="grid-img" src="img/Frame3.jpg" alt="hero img">
-            <h2 class="grid-text">Learn how to be a doctor</h2>
-            <p class="grid-text">Can I really be doctor? Is it that easy?</p>
-            <p class="grid-text">Published by Roy Saucedo<br>20 min read<br><br><a href="blog1.html">Read more</a></p>
-
-        </div>
-
-    </div>
-    <div class="footer">
-        <h1 class="footer-logo">Sauce Studios</h1>
-        <p class="footer-links">Resources</p>
-        <p class="footer-links">About</p>
-        <p class="footer-links">Contact</p>
-        <p class="footer-links all-rights">© 2021, Sauce Studios. All Rights Reserved.</p>
-    </footer>
-
-</div>  
-</body>
+  </body>
 </html>
